@@ -1,0 +1,114 @@
+# ------------------------
+# Python & LangChain RAG Project
+# ------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment (uv / venv)
+.venv/
+.env/
+venv/
+env/
+.uv/
+
+# Environment & configuration files
+*.env
+.env.*
+*.ini
+*.cfg
+*.toml
+*.yaml
+*.yml
+config.json
+secrets.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+jupyter_cache/
+jupyter_execute/
+
+# FAISS index and embeddings (large binary files)
+*.faiss
+*.index
+*.bin
+*.pkl
+*.npy
+*.npz
+
+# LangChain cache or vectorstore folders
+lc_cache/
+langchain_cache/
+vectorstore/
+faiss_store/
+chroma_db/
+*.db
+
+# Temporary data
+data/temp/
+data/intermediate/
+tmp/
+logs/
+__logs__/
+outputs/
+runs/
+
+# Compiled source or build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Testing / coverage
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Notebooks and experiments
+experiments/
+drafts/
+
+# Docker / container files
+docker-compose.override.yml
+*.pid
+
+# Miscellaneous
+*.bak
+*.old
+*.orig
+*.zip
+*.tar
+*.gz
+*.csv
+*.jsonl
+
+# Model weights or checkpoints (optional)
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Folders
+Dataset/
